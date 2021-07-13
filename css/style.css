@@ -8,7 +8,7 @@
 h2{
     margin-bottom: 10px;
 }
-.container{
+.container .row{
     width: 100%;
 }
 .row{
@@ -34,5 +34,8 @@ h2{
     text-align: center;
     line-height: 55px;
 }
+
+/* Responsive col-12 */
+
 
     
