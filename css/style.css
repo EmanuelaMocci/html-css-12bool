@@ -8,24 +8,30 @@
 h2{
     margin-bottom: 10px;
 }
-.container .row{
+.container{
     width: 100%;
 }
 .row{
     display: flex;
-    height: 55px;
+    flex-wrap: wrap;
+    min-height: 55px;
 }
 .row .nested-green{
     border: none;
-    margin: 1px;
+    border: 1px solid #006cfa;
     background-color: #00e165; 
     line-height: 35px;
+    height: 35px;
+    flex-wrap: nowrap;
 }
 .row.padding-10px{
     padding: 10px;
 }
 .margin-top{
     margin-top: 20px;
+}
+.container-offset .row{
+    flex-wrap: nowrap;
 }
 [class*="col-"]{
     background-color: #006cfa;

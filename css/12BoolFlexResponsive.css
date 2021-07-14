@@ -1,8 +1,85 @@
 /* Mediaquery */
-/* Cellulare */
-/* @media screen and (max-width: 767px){
-    
-}  */
+
+ /* Cellulare */
+ @media screen and (max-width: 767px){
+    h2{
+        text-align: center;
+        background-color: hotpink;
+        margin-top: 20px;
+    }
+    .col-xs-1 {
+        flex-basis: calc((100% / 12) * 1);
+     }
+    .col-xs-2 {
+        flex-basis: calc((100% / 12) * 2);
+    }
+    .col-xs-3 {
+        flex-basis: calc((100% / 12) * 3);
+    }
+    .col-xs-4 {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    .col-xs-5 {
+        flex-basis: calc((100% / 12) * 5);
+    }
+    .col-xs-6 {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    .col-xs-7 {
+        flex-basis: calc((100% / 12) * 7);
+    }
+    .col-xs-8 {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    .col-xs-9 {
+        flex-basis: calc((100% / 12) * 9);
+    }
+    .col-xs-10 {
+        flex-basis: calc((100% / 12) * 10);
+    }
+    .col-xs-11 {
+        flex-basis: calc((100% / 12) * 11);
+    }
+    .col-xs-12 {
+        flex-basis: calc((100% / 12) * 12);
+    }
+
+    /* Offset */
+    .col-xs-11-offset {
+        margin-left: calc((100% / 12) * 11);
+    }
+    .col-xs-10-offset {
+        margin-left: calc((100% / 12) * 10);
+    }
+    .col-xs-9-offset {
+        margin-left: calc((100% / 12) * 9);
+    }
+    .col-xs-8-offset {
+        margin-left: calc((100% / 12) * 8);
+    }
+    .col-xs-7-offset {
+        margin-left: calc((100% / 12) * 7);
+    }
+    .col-xs-6-offset {
+        margin-left: calc((100% / 12) * 6);
+    }
+    .col-xs-5-offset {
+        margin-left: calc((100% / 12) * 5);
+    }
+    .col-xs-4-offset {
+        margin-left: calc((100% / 12) * 4);
+    }
+    .col-xs-3-offset {
+        margin-left: calc((100% / 12) * 3);
+    }
+    .col-xs-2-offset {
+        margin-left: calc((100% / 12) * 2);
+    }
+    .col-xs-1-offset {
+        margin-left: calc((100% / 12) * 1);
+    }
+ }
+
 
 /* Tablet */
  @media screen and (min-width: 768px) and (max-width: 991px){
@@ -42,10 +119,9 @@
     .col-md-12 {
         flex-basis: calc((100% / 12) * 12);
     }
- }
-    
-    /* Offset tablet md*/
-    /* .col-md-11-offset {
+
+     /* Offset tablet md*/
+    .col-md-11-offset {
         margin-left: calc((100% / 12) * 11);
     }
     .col-md-10-offset {
@@ -78,7 +154,85 @@
     .col-md-1-offset {
         margin-left: calc((100% / 12) * 1);
     }
- }     */
+ } 
+    
+
+ /* Desktop lg */
+ @media screen and (min-width: 992px){
+    .col-lg-1 {
+        flex-basis: calc((100% / 12) * 1);
+    }
+    .col-lg-2 {
+        flex-basis: calc((100% / 12) * 2);
+    }
+    .col-lg-3 {
+        flex-basis: calc((100% / 12) * 3);
+    }
+    .col-lg-4 {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    .col-lg-5 {
+        flex-basis: calc((100% / 12) * 5);
+    }
+    .col-lg-6 {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    .col-lg-7 {
+        flex-basis: calc((100% / 12) * 7);
+    }
+    .col-lg-8 {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    .col-lg-9 {
+        flex-basis: calc((100% / 12) * 9);
+    }
+    .col-lg-10 {
+        flex-basis: calc((100% / 12) * 10);
+    }
+    .col-lg-11 {
+        flex-basis: calc((100% / 12) * 11);
+    }
+    .col-lg-12 {
+        flex-basis: 100%;
+    }
+    
+    /* Offset desktop lg*/
+    .col-lg-11-offset {
+        margin-left: calc((100% / 12) * 11);
+    }
+    .col-lg-10-offset {
+        margin-left: calc((100% / 12) * 10);
+    }
+    .col-lg-9-offset {
+        margin-left: calc((100% / 12) * 9);
+    }
+    .col-lg-8-offset {
+        margin-left: calc((100% / 12) * 8);
+    }
+    .col-lg-7-offset {
+        margin-left: calc((100% / 12) * 7);
+    }
+    .col-lg-6-offset {
+        margin-left: calc((100% / 12) * 6);
+    }
+    .col-lg-5-offset {
+        margin-left: calc((100% / 12) * 5);
+    }
+    .col-lg-4-offset {
+        margin-left: calc((100% / 12) * 4);
+    }
+    .col-lg-3-offset {
+        margin-left: calc((100% / 12) * 3);
+    }
+    .col-lg-2-offset {
+        margin-left: calc((100% / 12) * 2);
+    }
+    .col-lg-1-offset {
+        margin-left: calc((100% / 12) * 1);
+    }
+    
+}
+    
 
 
 
@@ -93,26 +247,3 @@
     
    
 
-/* Tablet */
-/* @media screen and (min-width: 768px) and (max-width: 991px){
-    .col-md-1{
-        width: calc(100 / 12);
-    }
-    .col-md-2{
-        width: calc(100 / 6);
-        background-color: thistle;
-    }
-   */
-   
-
-/* Desktop */
-/* @media screen and (min-width: 992px){
-    .col-lg-1{
-        width: calc(100 / 12);
-    }
-    .col-lg-2{
-        width: calc(100 / 6);
-        background-color: thistle;
-    }
-    
-} */
